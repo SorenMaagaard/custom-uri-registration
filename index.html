@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom URI Scheme Links</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div class="container mx-auto p-8">
+        <h1 class="text-3xl font-bold mb-6 text-center">Test Links for com.3shape.myapp</h1>
+        <div class="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
+            <ul class="space-y-4">
+                <li><a href="com.3shape.myapp://openadvanceorder?orderId=1" class="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-600">Open Advance Order 1</a></li>
+                <li><a href="com.3shape.myapp://openadvanceorder?orderId=2" class="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-600">Open Advance Order 2</a></li>
+                <li><a href="com.3shape.myapp://openadvanceorder?orderId=3" class="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-600">Open Advance Order 3</a></li>
+                <li><a href="com.3shape.myapp://openadvanceorder?orderId=4" class="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-600">Open Advance Order 4</a></li>
+                <li><a href="com.3shape.myapp://openadvanceorder?orderId=5" class="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-600">Open Advance Order 5</a></li>
+                <li><a href="com.3shape.myapp://tokenRedirect?authcode=xyz123" class="text-green-500 hover:text-green-700 dark:text-green-400 dark:hover:text-green-600">Token Redirect with authcode xyz123</a></li>
+                <li><a href="com.3shape.myapp://tokenRedirect?authcode=abc456" class="text-green-500 hover:text-green-700 dark:text-green-400 dark:hover:text-green-600">Token Redirect with authcode abc456</a></li>
+                <li><a href="com.3shape.myapp://someotheraction?param=value1" class="text-purple-500 hover:text-purple-700 dark:text-purple-400 dark:hover:text-purple-600">Some Other Action 1</a></li>
+                <li><a href="com.3shape.myapp://someotheraction?param=value2" class="text-purple-500 hover:text-purple-700 dark:text-purple-400 dark:hover:text-purple-600">Some Other Action 2</a></li>
+                <li><a href="com.3shape.myapp://anotheraction" class="text-yellow-500 hover:text-yellow-700 dark:text-yellow-400 dark:hover:text-yellow-600">Another Action (no params)</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
